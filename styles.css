@@ -47,6 +47,23 @@ html {
 	text-align: center;
 	margin-top: 20px;
 	position: relative;
+
+
+	animation-name: hero-box-arrow;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes hero-box-arrow {
+	0%{
+		top: 0px;
+	}
+	100%{
+		top:20px
+	}
+	
 }
 
 .hero-p-hello {
@@ -162,6 +179,7 @@ html {
 	margin: 10px;
 	width: 100%;
 	max-width: 500px;
+	box-shadow: 3px 2px 13px 1px #100f1aab;
 }
 
 .experience-item-p {
@@ -366,6 +384,19 @@ html {
 	.quality-text p {
 		color: var(--froze-white);
 		font-size: 0.8rem;
+	}
+
+	.contact-head {
+		display: grid;
+	}
+
+	.contact-head p{
+		padding-top: 10px;
+	}
+
+	.contact-bottom {
+		display: grid;
+		justify-content: start;
 	}
 }
 
