@@ -254,20 +254,6 @@ html {
 	font-size: 0.875rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact {
 	margin-top: 50px;
 	margin-bottom: 80px;
@@ -367,8 +353,19 @@ html {
 	.experience-container {
 		flex-direction: column;
 		justify-content: center;
-    align-items: center;
+    	align-items: center;
 		padding:20px;
+	}
+	.quality-grid {
+		display: grid;
+		margin-top: 30px;
+		gap:1.25rem;
+	  grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+
+	.quality-text p {
+		color: var(--froze-white);
+		font-size: 0.8rem;
 	}
 }
 
