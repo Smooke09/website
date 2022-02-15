@@ -386,6 +386,10 @@ html {
 		font-size: 0.8rem;
 	}
 
+	.quality-item {
+		padding: 10px;
+	}
+
 	.contact-head {
 		display: grid;
 	}
@@ -398,6 +402,12 @@ html {
 		display: grid;
 		justify-content: start;
 	}
+
+	.contact-container {
+		padding: 10px;
+	}
+
+
 }
 
 @-moz-keyframes spin {
