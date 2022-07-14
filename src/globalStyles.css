@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+html,
+body {
+  font-family: JetBrains Mono;
+  color: var(--white);
+  background-repeat: no-repeat;
+  background: linear-gradient(99.1deg, #232139 5.11%, #0d0c15 94.89%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #222222ff;
+  --white: #ffffffff;
+  --blue: #2f89dd;
+  --green: #4bbbd1;
+  --froze-white: #808080;
+  --greenn: #0de242;
+}

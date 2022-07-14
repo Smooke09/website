@@ -1,0 +1,21 @@
+.hero-box-arrow {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  animation-name: hero-box-arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hero-box-arrow {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 20px;
+  }
+}
